@@ -1,0 +1,53 @@
+/* 
+font-family: 'Fredoka One', cursive;
+font-family: 'Arvo' 400+700, serif;
+font-family: 'Raleway', sans-serif; 
+Photo by Markus Winkler on Unsplash
+*/
+
+
+
+/* Navbar */
+.navbar {
+  background-color: #e4c8bd;
+}
+
+
+.navbar-brand {
+
+  font-family: "Fredoka One", cursive;
+  font-size: 2rem;
+}
+
+.brandname {
+  color: #cd0631;
+}
+
+.brandname:hover {
+  color: #cf3456;
+}
+.nopadding {
+  padding: 0;
+}
+.nav-link {
+  color: rgb(17, 17, 17);
+  font-family: "Arvo", sans-serif;
+  font-size: 1.2rem;
+  margin: 0 1.2rem 0 1.2rem;
+  border: none;
+}
+
+.nav-link:hover {
+  color: rgb(73, 73, 73);
+}
+
+.navbar-toggler-icon {
+  color: #000;
+}
+
+/* submit-a-recipe */
+
+.submit-a-recipe {
+  margin: 0 auto;
+  padding: 0px;
+}
