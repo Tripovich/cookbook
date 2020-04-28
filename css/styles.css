@@ -5,7 +5,9 @@ font-family: 'Raleway', sans-serif;
 Photo by Markus Winkler on Unsplash
 */
 
-
+body {
+  background-color: #f1ebeb;
+}
 
 /* Navbar */
 .navbar {
