@@ -8,7 +8,25 @@ Photo by Annie Spratt on Unsplash - table
 */
 
 body {
-  background-color: #f1ebeb;
+  background-color: #e4c8bd;
+  font-family: "Raleway";
+}
+
+h1 {
+  font-family: "Arvo";
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+h2 {
+  font-family: "Arvo";
+  font-weight: 400;
+  font-size: 1.8rem;
+}
+p {
+  font-family: "Raleway";
+}
+ul {
+  font-family: "Raleway";
 }
 
 /* Navbar */
@@ -36,7 +54,7 @@ body {
 .nav-link {
   color: rgb(17, 17, 17);
   font-family: "Arvo", sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   margin: 0 1.2rem 0 1.2rem;
   border: none;
 }
@@ -54,4 +72,32 @@ body {
 .submit-a-recipe {
   margin: 0 auto;
   padding: 0px;
+}
+
+/* recipe template */
+
+.recipe-bg {
+  position: fixed;
+  z-index: -1;
+}
+.recipe {
+  position: relative;
+  background-color: #ffffff;
+  width: 70%;
+  z-index: 1;
+  border-radius: 7px;
+  box-shadow: 3px 3px 0px 3px #cd0631;
+  margin-top: auto;
+  margin-bottom: 102vh;
+}
+.ingredients {
+  padding-left: 15px;
+}
+.tools {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.method {
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
